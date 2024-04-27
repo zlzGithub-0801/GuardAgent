@@ -5,14 +5,12 @@ def openai_config(model):
     if model == 'gpt-3.5-turbo':
         config = {
             "model": "gpt-3.5-turbo",
-            # "api_key": "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",
-            "api_key": "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",
+            "api_key": "<YOUR_API_KEY>",
         }
     else:
         config = {
             "model": "gpt-4",
-            # "api_key": "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",
-            "api_key": "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",
+            "api_key": "<YOUR_API_KEY>",
         }
 
     return config
